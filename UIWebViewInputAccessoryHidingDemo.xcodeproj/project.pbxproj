@@ -1,0 +1,484 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F722523C1977F33400FC2C44 /* UIWebView+InputAccessoryHiding.m in Sources */ = {isa = PBXBuildFile; fileRef = F722523B1977F33400FC2C44 /* UIWebView+InputAccessoryHiding.m */; };
+		F76BFBCC1973856D0052E9CD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F76BFBCB1973856D0052E9CD /* Foundation.framework */; };
+		F76BFBCE1973856D0052E9CD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F76BFBCD1973856D0052E9CD /* CoreGraphics.framework */; };
+		F76BFBD01973856D0052E9CD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F76BFBCF1973856D0052E9CD /* UIKit.framework */; };
+		F76BFBD61973856D0052E9CD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F76BFBD41973856D0052E9CD /* InfoPlist.strings */; };
+		F76BFBD81973856D0052E9CD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F76BFBD71973856D0052E9CD /* main.m */; };
+		F76BFBDC1973856D0052E9CD /* InputAccessoryHidingAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F76BFBDB1973856D0052E9CD /* InputAccessoryHidingAppDelegate.m */; };
+		F76BFBDF1973856D0052E9CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F76BFBDD1973856D0052E9CD /* Main.storyboard */; };
+		F76BFBE21973856D0052E9CD /* InputAccessoryHidingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F76BFBE11973856D0052E9CD /* InputAccessoryHidingViewController.m */; };
+		F76BFBE41973856D0052E9CD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F76BFBE31973856D0052E9CD /* Images.xcassets */; };
+		F76BFBEB1973856D0052E9CD /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F76BFBEA1973856D0052E9CD /* XCTest.framework */; };
+		F76BFBEC1973856D0052E9CD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F76BFBCB1973856D0052E9CD /* Foundation.framework */; };
+		F76BFBED1973856D0052E9CD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F76BFBCF1973856D0052E9CD /* UIKit.framework */; };
+		F76BFBF51973856D0052E9CD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F76BFBF31973856D0052E9CD /* InfoPlist.strings */; };
+		F76BFBF71973856D0052E9CD /* UIWebViewInputAccessoryHidingDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F76BFBF61973856D0052E9CD /* UIWebViewInputAccessoryHidingDemoTests.m */; };
+		F76BFC01197387B10052E9CD /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = F76BFC00197387B10052E9CD /* index.html */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F76BFBEE1973856D0052E9CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F76BFBC01973856D0052E9CD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F76BFBC71973856D0052E9CD;
+			remoteInfo = UIWebViewInputAccessoryHidingDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F722523A1977F33400FC2C44 /* UIWebView+InputAccessoryHiding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebView+InputAccessoryHiding.h"; sourceTree = "<group>"; };
+		F722523B1977F33400FC2C44 /* UIWebView+InputAccessoryHiding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+InputAccessoryHiding.m"; sourceTree = "<group>"; };
+		F76BFBC81973856D0052E9CD /* UIWebViewInputAccessoryHidingDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIWebViewInputAccessoryHidingDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F76BFBCB1973856D0052E9CD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F76BFBCD1973856D0052E9CD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F76BFBCF1973856D0052E9CD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F76BFBD31973856D0052E9CD /* UIWebViewInputAccessoryHidingDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UIWebViewInputAccessoryHidingDemo-Info.plist"; sourceTree = "<group>"; };
+		F76BFBD51973856D0052E9CD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F76BFBD71973856D0052E9CD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F76BFBD91973856D0052E9CD /* UIWebViewInputAccessoryHidingDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIWebViewInputAccessoryHidingDemo-Prefix.pch"; sourceTree = "<group>"; };
+		F76BFBDA1973856D0052E9CD /* InputAccessoryHidingAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InputAccessoryHidingAppDelegate.h; sourceTree = "<group>"; };
+		F76BFBDB1973856D0052E9CD /* InputAccessoryHidingAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InputAccessoryHidingAppDelegate.m; sourceTree = "<group>"; };
+		F76BFBDE1973856D0052E9CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F76BFBE01973856D0052E9CD /* InputAccessoryHidingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InputAccessoryHidingViewController.h; sourceTree = "<group>"; };
+		F76BFBE11973856D0052E9CD /* InputAccessoryHidingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InputAccessoryHidingViewController.m; sourceTree = "<group>"; };
+		F76BFBE31973856D0052E9CD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F76BFBE91973856D0052E9CD /* UIWebViewInputAccessoryHidingDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIWebViewInputAccessoryHidingDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F76BFBEA1973856D0052E9CD /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		F76BFBF21973856D0052E9CD /* UIWebViewInputAccessoryHidingDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UIWebViewInputAccessoryHidingDemoTests-Info.plist"; sourceTree = "<group>"; };
+		F76BFBF41973856D0052E9CD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F76BFBF61973856D0052E9CD /* UIWebViewInputAccessoryHidingDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIWebViewInputAccessoryHidingDemoTests.m; sourceTree = "<group>"; };
+		F76BFC00197387B10052E9CD /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F76BFBC51973856D0052E9CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F76BFBCE1973856D0052E9CD /* CoreGraphics.framework in Frameworks */,
+				F76BFBD01973856D0052E9CD /* UIKit.framework in Frameworks */,
+				F76BFBCC1973856D0052E9CD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F76BFBE61973856D0052E9CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F76BFBEB1973856D0052E9CD /* XCTest.framework in Frameworks */,
+				F76BFBED1973856D0052E9CD /* UIKit.framework in Frameworks */,
+				F76BFBEC1973856D0052E9CD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F76BFBBF1973856D0052E9CD = {
+			isa = PBXGroup;
+			children = (
+				F76BFBD11973856D0052E9CD /* UIWebViewInputAccessoryHidingDemo */,
+				F76BFBF01973856D0052E9CD /* UIWebViewInputAccessoryHidingDemoTests */,
+				F76BFBCA1973856D0052E9CD /* Frameworks */,
+				F76BFBC91973856D0052E9CD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F76BFBC91973856D0052E9CD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F76BFBC81973856D0052E9CD /* UIWebViewInputAccessoryHidingDemo.app */,
+				F76BFBE91973856D0052E9CD /* UIWebViewInputAccessoryHidingDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F76BFBCA1973856D0052E9CD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F76BFBCB1973856D0052E9CD /* Foundation.framework */,
+				F76BFBCD1973856D0052E9CD /* CoreGraphics.framework */,
+				F76BFBCF1973856D0052E9CD /* UIKit.framework */,
+				F76BFBEA1973856D0052E9CD /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F76BFBD11973856D0052E9CD /* UIWebViewInputAccessoryHidingDemo */ = {
+			isa = PBXGroup;
+			children = (
+				F722523A1977F33400FC2C44 /* UIWebView+InputAccessoryHiding.h */,
+				F722523B1977F33400FC2C44 /* UIWebView+InputAccessoryHiding.m */,
+				F76BFBDD1973856D0052E9CD /* Main.storyboard */,
+				F76BFBE01973856D0052E9CD /* InputAccessoryHidingViewController.h */,
+				F76BFBE11973856D0052E9CD /* InputAccessoryHidingViewController.m */,
+				F76BFBE31973856D0052E9CD /* Images.xcassets */,
+				F76BFBD21973856D0052E9CD /* Supporting Files */,
+			);
+			path = UIWebViewInputAccessoryHidingDemo;
+			sourceTree = "<group>";
+		};
+		F76BFBD21973856D0052E9CD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F76BFBDA1973856D0052E9CD /* InputAccessoryHidingAppDelegate.h */,
+				F76BFBDB1973856D0052E9CD /* InputAccessoryHidingAppDelegate.m */,
+				F76BFBD31973856D0052E9CD /* UIWebViewInputAccessoryHidingDemo-Info.plist */,
+				F76BFBD41973856D0052E9CD /* InfoPlist.strings */,
+				F76BFBD71973856D0052E9CD /* main.m */,
+				F76BFBD91973856D0052E9CD /* UIWebViewInputAccessoryHidingDemo-Prefix.pch */,
+				F76BFC00197387B10052E9CD /* index.html */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F76BFBF01973856D0052E9CD /* UIWebViewInputAccessoryHidingDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				F76BFBF61973856D0052E9CD /* UIWebViewInputAccessoryHidingDemoTests.m */,
+				F76BFBF11973856D0052E9CD /* Supporting Files */,
+			);
+			path = UIWebViewInputAccessoryHidingDemoTests;
+			sourceTree = "<group>";
+		};
+		F76BFBF11973856D0052E9CD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F76BFBF21973856D0052E9CD /* UIWebViewInputAccessoryHidingDemoTests-Info.plist */,
+				F76BFBF31973856D0052E9CD /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F76BFBC71973856D0052E9CD /* UIWebViewInputAccessoryHidingDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F76BFBFA1973856D0052E9CD /* Build configuration list for PBXNativeTarget "UIWebViewInputAccessoryHidingDemo" */;
+			buildPhases = (
+				F76BFBC41973856D0052E9CD /* Sources */,
+				F76BFBC51973856D0052E9CD /* Frameworks */,
+				F76BFBC61973856D0052E9CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UIWebViewInputAccessoryHidingDemo;
+			productName = UIWebViewInputAccessoryHidingDemo;
+			productReference = F76BFBC81973856D0052E9CD /* UIWebViewInputAccessoryHidingDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F76BFBE81973856D0052E9CD /* UIWebViewInputAccessoryHidingDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F76BFBFD1973856D0052E9CD /* Build configuration list for PBXNativeTarget "UIWebViewInputAccessoryHidingDemoTests" */;
+			buildPhases = (
+				F76BFBE51973856D0052E9CD /* Sources */,
+				F76BFBE61973856D0052E9CD /* Frameworks */,
+				F76BFBE71973856D0052E9CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F76BFBEF1973856D0052E9CD /* PBXTargetDependency */,
+			);
+			name = UIWebViewInputAccessoryHidingDemoTests;
+			productName = UIWebViewInputAccessoryHidingDemoTests;
+			productReference = F76BFBE91973856D0052E9CD /* UIWebViewInputAccessoryHidingDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F76BFBC01973856D0052E9CD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = InputAccessoryHiding;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = dhf;
+				TargetAttributes = {
+					F76BFBE81973856D0052E9CD = {
+						TestTargetID = F76BFBC71973856D0052E9CD;
+					};
+				};
+			};
+			buildConfigurationList = F76BFBC31973856D0052E9CD /* Build configuration list for PBXProject "UIWebViewInputAccessoryHidingDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F76BFBBF1973856D0052E9CD;
+			productRefGroup = F76BFBC91973856D0052E9CD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F76BFBC71973856D0052E9CD /* UIWebViewInputAccessoryHidingDemo */,
+				F76BFBE81973856D0052E9CD /* UIWebViewInputAccessoryHidingDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F76BFBC61973856D0052E9CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F76BFBE41973856D0052E9CD /* Images.xcassets in Resources */,
+				F76BFC01197387B10052E9CD /* index.html in Resources */,
+				F76BFBD61973856D0052E9CD /* InfoPlist.strings in Resources */,
+				F76BFBDF1973856D0052E9CD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F76BFBE71973856D0052E9CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F76BFBF51973856D0052E9CD /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F76BFBC41973856D0052E9CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F722523C1977F33400FC2C44 /* UIWebView+InputAccessoryHiding.m in Sources */,
+				F76BFBE21973856D0052E9CD /* InputAccessoryHidingViewController.m in Sources */,
+				F76BFBD81973856D0052E9CD /* main.m in Sources */,
+				F76BFBDC1973856D0052E9CD /* InputAccessoryHidingAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F76BFBE51973856D0052E9CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F76BFBF71973856D0052E9CD /* UIWebViewInputAccessoryHidingDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F76BFBEF1973856D0052E9CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F76BFBC71973856D0052E9CD /* UIWebViewInputAccessoryHidingDemo */;
+			targetProxy = F76BFBEE1973856D0052E9CD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F76BFBD41973856D0052E9CD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F76BFBD51973856D0052E9CD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F76BFBDD1973856D0052E9CD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F76BFBDE1973856D0052E9CD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F76BFBF31973856D0052E9CD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F76BFBF41973856D0052E9CD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F76BFBF81973856D0052E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F76BFBF91973856D0052E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F76BFBFB1973856D0052E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UIWebViewInputAccessoryHidingDemo/UIWebViewInputAccessoryHidingDemo-Prefix.pch";
+				INFOPLIST_FILE = "UIWebViewInputAccessoryHidingDemo/UIWebViewInputAccessoryHidingDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F76BFBFC1973856D0052E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UIWebViewInputAccessoryHidingDemo/UIWebViewInputAccessoryHidingDemo-Prefix.pch";
+				INFOPLIST_FILE = "UIWebViewInputAccessoryHidingDemo/UIWebViewInputAccessoryHidingDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F76BFBFE1973856D0052E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/UIWebViewInputAccessoryHidingDemo.app/UIWebViewInputAccessoryHidingDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UIWebViewInputAccessoryHidingDemo/UIWebViewInputAccessoryHidingDemo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "UIWebViewInputAccessoryHidingDemoTests/UIWebViewInputAccessoryHidingDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		F76BFBFF1973856D0052E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/UIWebViewInputAccessoryHidingDemo.app/UIWebViewInputAccessoryHidingDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UIWebViewInputAccessoryHidingDemo/UIWebViewInputAccessoryHidingDemo-Prefix.pch";
+				INFOPLIST_FILE = "UIWebViewInputAccessoryHidingDemoTests/UIWebViewInputAccessoryHidingDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F76BFBC31973856D0052E9CD /* Build configuration list for PBXProject "UIWebViewInputAccessoryHidingDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F76BFBF81973856D0052E9CD /* Debug */,
+				F76BFBF91973856D0052E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F76BFBFA1973856D0052E9CD /* Build configuration list for PBXNativeTarget "UIWebViewInputAccessoryHidingDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F76BFBFB1973856D0052E9CD /* Debug */,
+				F76BFBFC1973856D0052E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F76BFBFD1973856D0052E9CD /* Build configuration list for PBXNativeTarget "UIWebViewInputAccessoryHidingDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F76BFBFE1973856D0052E9CD /* Debug */,
+				F76BFBFF1973856D0052E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F76BFBC01973856D0052E9CD /* Project object */;
+}
